@@ -1,0 +1,55 @@
+# Power-BI-DAX-Project-Sales
+# Power BI DAX Project: TechnoEdge Sales Analysis
+
+#The Dashboard link to PowerBI ias as follows
+[Dashboard Link](https://1drv.ms/u/c/1ac827490f65c2b9/EcyQK5fcEdFLsq0KOg3B7JYBDQRSUgA4EFLG8vGdyUEfQg?e=VmNQ59)
+
+# Power BI DAX Project Solution
+
+## A. Installation
+
+### Downloading Power BI Desktop
+1. Go to [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) and select "Power BI Desktop" from the "Products" tab.
+2. Go to the Power BI Desktop download page.
+3. Click "Download free."
+4. Select your system version (32-bit or 64-bit).
+5. Click "Download."
+6. Locate the downloaded file in your downloads folder.
+7. Double-click to start the installation.
+8. Follow on-screen instructions.
+9. Launch Power BI Desktop from the desktop shortcut or the Windows Start menu.
+
+Instruction: Download and install Power BI Desktop from the official website and start exploring its features for creating impactful reports.
+
+## B. Data Modeling
+
+### Creating a Relationship Between Tables in Power BI
+Creating relationships between tables using a common column improves the accuracy and reliability of data analysis and visualization in the model view of Power BI.
+
+Hint: Manage Relationships
+1. **Product Subcategory Key**
+   - Product_Subcategories_Dim vs. Product_categories_Dim
+2. **Product Sub Category**
+   - Product_Dim vs. Product_Subcategories_Dim
+3. **Product key**
+   - Returns_Fact vs. Products_Dim
+4. **Return date**
+   - Returns_Fact vs. Calendar_Dim
+5. **Territory key**
+   - Returns_Fact vs. Territories_Dim
+6. **Customer key**
+   - Sales_Fact vs. Customer_Dim
+7. **Order date**
+   - Sales_Fact vs. Calendar_Dim
+8. **Product key**
+   - Sales_Fact vs. Product_Dim
+9. **Territory key**
+   - Sales_Fact vs. Territories_Dim
+
+(2 fact tables, others are dimensions)
+
+## C. Data View
+
+1. Display all geographical datasets in Power BI along with their corresponding data categories, such as city, country, state, and region.
+
+   **Hint**: To show geographic data with its categories like city, country, state, and region, use Power BI's map visual. It's an easy and effective way to analyze and display geographical information.
