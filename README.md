@@ -1,6 +1,8 @@
 # Power-BI-DAX-Project-Sales
 # Power BI DAX Project: TechnoEdge Sales Analysis
 
+[Dashboard Link](https://1drv.ms/u/c/1ac827490f65c2b9/EcyQK5fcEdFLsq0KOg3B7JYBDQRSUgA4EFLG8vGdyUEfQg?e=VmNQ59)
+
 ## Overview
 TechnoEdge company has provided a dataset that includes various tables such as Calendar, Customers, Product Categories, Product Sub-Categories, Products, Returns, Territories, and Sales from 2022-2024. The purpose of analyzing this dataset is to gain insights and improve business operations. Using DAX Power BI, we can create interactive reports and visualizations to analyze sales trends, customer behavior, product performance, and returns. This will help in making data-driven decisions and improving business profitability.
 
